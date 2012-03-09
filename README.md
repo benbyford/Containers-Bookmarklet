@@ -2,52 +2,24 @@ Containers Bookmarklet v1
 By Ben Byford
 
 
+WHAT DOES CONTAINERS.JS DO?
+
+This is a open source art project enabling the user to create a container / or reduce any webpage to its bare bones. All imgs and media are replaced with empty boxes, and text replaced with spaces (&nbsp;), this transforms the site into a shell for the now non-existent content, but without completely collapsing the site enabling you to see the container / shell / graphics / boxes / the frame of the site. 
+
+Results will be documented here:
+
+www.containersproject.org
+
+Please submit your 'container' images there.
+
+
+
 USEAGE:
 
-JS – defaults: stopmotion(’#slideImages’,‘100’, ‘1’, '0')
+As a bookmarklet (file: containers_bookmarklet.js) - added to bookmarks and click on any web page. Also readable code enclosed. 
 
-$(function(){ 
-	stopmotion(divID, animationSpeed, pauseButton, navButton); 
-	
-	//divID = class or id of target div container with images 
-	//pauseButton 1 on / 0 off
-	//navButton 1 on / 0 off 
-});
-
-
-CSS
-#slideImages{ 
-	opacity: .6; 
-	background: url('images/quality6.jpg') 0 10px no-repeat; 
-	height: 415px; 
-	} 
-#slideImages img{ 
-	padding-top: 10px; 
-	margin: 0 auto; 
-	display: none; 
-	} 
-#slideImages img:first-child{ 
-	display: block; 
-	} 
-#loading{ 
-	position: absolute; 
-	top: 300px; 
-	left: 49%; 
-	z-index: 999; 
-	}
 
 
 VERSIONS:
-1.2 - 04/03/2012
-	Added
-		navButton - forward and back buttons while animation regardless if animation is paused or not
-		Option to added/remove navButtons button
-	Change
-		Class name 'first' - changed to 'firstSlide' as not to conflict with other classes in a pages' css
-	
-1.1 - 29/05/2011
-	Added
-		pause/play button
-		Option to added/remove pause/play button
-	
-1.0 - 27/05/2011
+
+1.0 - 09/03/2012 - mainly tested in FireFox 9/10
